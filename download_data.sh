@@ -1,4 +1,8 @@
 
+mkdir datasets
+mkdir datasets/raw
+mkdir repositories
+
 URL=http://fimi.uantwerpen.be/data/
 DIR=./datasets/raw
 
@@ -14,4 +18,7 @@ done
 echo -e "\nUnzipping webdocs..."
 gunzip $DIR/webdocs.dat
 
-echo "Done!"
+echo -e "\nCloning GMiner"
+git clone --progress https://github.com/coderbond007/GMiner.git ./repositories/gminer
+
+echo -e "\nDone!"

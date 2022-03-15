@@ -1,2 +1,9 @@
-datasets
+# datasets
 # repositories
+
+*.dat
+*.data
+*.cl
+*.pat
+*.gz
+*.zip

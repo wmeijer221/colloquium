@@ -1,24 +1,46 @@
-T=1000    # average size of transaction -tlen 
-P=5     # average length of maximal patterns -seq.patlen
-I=100   # number of differernt items -nitems
-C=0.25  # correlation grade among patterns -lit.corr
-D=10    # number of transactions -ncust
 
-DATASET=T$T-P$P-I$I-C$C-D$D
-OUTPUT=output/$DATASET
+CONFIGURATIONS=(
+    # Different sizes
+    50 5 100 0.25 50
+    50 5 100 0.25 100
+    50 5 100 0.25 250
+    50 5 100 0.25 500
+    50 5 100 0.25 1000
+    50 5 100 0.25 2000
 
-echo "P1: Generating new dataset: $DATASET"
-./seq_data_generator seq -tlen $T -seq.patlen $P -nitems $I -lit.corr $C -ncust $D -ascii -fname $OUTPUT
-# ./seq_data_generator seq -slen 6 -tlen 29 -nitems 0.05 -ascii -fname $OUTPUT
+    # Different densities
+    10 5 100 0.25 500
+    25 5 100 0.25 500
+    50 5 100 0.25 500
+    100 5 100 0.25 500
+    250 5 100 0.25 500
+    500 5 100 0.25 500
+)
 
-echo "P2: Cleaning/Reformatting dataset"
-python3 ./clean2.py $OUTPUT.data
+for ((i=0;i<60;i+=5))
+do 
+    : 
+    T=${CONFIGURATIONS[i]}      # average size of transaction -tlen 
+    P=${CONFIGURATIONS[i+1]}    # average length of maximal patterns -seq.patlen
+    I=${CONFIGURATIONS[i+2]}    # number of differernt items -nitems
+    C=${CONFIGURATIONS[i+3]}    # correlation grade among patterns -lit.corr
+    D=${CONFIGURATIONS[i+4]}    # number of transactions -ncust
 
-echo "P3: Generating dataset statistics"
-python3 ./calc_statistics.py $OUTPUT.data.cl >> $OUTPUT.txt
+    DATASET="T$T-P$P-I$I.k-C$C-D$D.k"
+    OUTPUT="output/$DATASET"
 
-echo "P4: Removing junk files"
-rm -f $OUTPUT.data
-rm -f $OUTPUT.pat
+    echo "P1: Generating new dataset: $DATASET"
+    ./seq_data_generator lit -ntrans $D -tlen $T -nitems $I -patlen $P -corr $C -ascii -fname $OUTPUT
 
-echo "Done!"
+    echo "P2: Cleaning/Reformatting dataset"
+    python3 ./clean.py $OUTPUT.data
+
+    echo "P3: Generating dataset statistics"
+    python3 ./calc_statistics.py $OUTPUT.data.cl >> $OUTPUT.pat
+
+    echo "P4: Removing junk files"
+    rm -f $OUTPUT.data
+    mv $OUTPUT.data.cl $OUTPUT.dat
+
+    echo "Done!"
+done

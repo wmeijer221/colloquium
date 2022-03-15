@@ -1,1 +1,0 @@
-density=4.768794890886973%, avg_trans_length=537.7293118964151, len(items)=11276, len(data)=74451

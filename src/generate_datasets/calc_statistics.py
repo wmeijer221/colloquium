@@ -23,4 +23,4 @@ avg_trans_length /= len(data)
 density = (avg_trans_length / len(items)) * 100
 
 
-print(f'Statistics:\n\t{density=}%\n\t{avg_trans_length=}\n\t{len(items)=}\n\t30{len(data)=}')
+print(f'Statistics:\n\tDensity: {density}%\n\tAvg. Transaction Length: {avg_trans_length=}\n\tItem Count: {len(items)=}\n\tData Entries: {len(data)=}')

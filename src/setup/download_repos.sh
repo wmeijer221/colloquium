@@ -1,5 +1,5 @@
 
-rm -r ./repositories
+rm -r -f ./repositories
 mkdir ./repositories
 
 echo -e "\nCloning GMiner"

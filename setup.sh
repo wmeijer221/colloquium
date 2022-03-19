@@ -1,4 +1,6 @@
 
+#TODO: update this file.
+
 # downloads FIMI'04 datasets. 
 ./src/setup/download_fimi_data.sh 
 

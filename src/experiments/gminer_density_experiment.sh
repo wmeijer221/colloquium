@@ -5,6 +5,9 @@ D=500
 T=(10 20 30 40 50)
 I=1
 
+REPS=10
+MIN_SUP=0.0005
+
 echo -e "Starting Density Experiment"
 
 for t in "${T[@]}"
@@ -15,7 +18,7 @@ do
     FNAME="D${D}K-T${t}-I${I}K"
 
     ./repositories/ibm_generator/seq_data_generator lit -ntrans $D -nitems $I -tlen $t -ascii -fname "$DATA_DIR/$FNAME"
-    python3 ./src/generate_datasets/clean.py "$DATA_DIR/$FNAME.data"
+    python3 ./src/generate_datasets/clean2.py "$DATA_DIR/$FNAME.data"
     python3 ./src/generate_datasets/calc_statistics.py "$DATA_DIR/$FNAME.data.cl" >> "$DATA_DIR/$FNAME.pat"
 
 
@@ -25,10 +28,8 @@ do
 
 
     echo -e "Step 3: Perform experiment"
-    RESULT_DIR="./results"
+    RESULT_DIR="./results/gminer"
 
-    REPS=10
-    MIN_SUP=0.0005
 
     echo -e "Dataset: $FNAME\nRepetitions: $REPS\nMinimum Support: $MIN_SUP\n\n" >> "$RESULT_DIR/$FNAME.out"
 

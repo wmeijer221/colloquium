@@ -8,7 +8,7 @@ MIN_SUP=(0.0001 0.0002 0.0003 0.0004 0.0005 0.0006 0.0007 0.0008 0.0009 0.001)
 
 REPS=10
 
-echo -e "Starting Density Experiment"
+echo -e "Starting Support Experiment"
 
 echo -e "Step 1: Generating dataset"
 DATA_DIR="./datasets/ibm"

@@ -1,8 +1,8 @@
 #!/bin/sh
 # This script executes the entire GMiner data-density experiment.
 
-D=500
-T=(10 20 30 40 50)
+D=250
+T=(10 20 30 35 40 45 50)
 I=1
 
 REPS=10

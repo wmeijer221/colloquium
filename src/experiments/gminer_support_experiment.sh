@@ -4,7 +4,7 @@
 I=1
 D=(100 250 500 1000)
 T=(10 25 40 55)
-MIN_SUP=(0.0002 0.0006 0.001 0.0014 0.0018)
+MIN_SUP=(0.002)
 
 REPS=2
 DATA_DIR="./datasets/ibm"
@@ -20,16 +20,16 @@ do
         :
 
         FNAME="D${d}K-T${t}-I${I}K"
-        echo -e "\nStep 1: Generating dataset: $FNAME"
+        # echo -e "\nStep 1: Generating dataset: $FNAME"
 
-        ./repositories/ibm_generator/seq_data_generator lit -ntrans $d -nitems $I -tlen $t -ascii -fname "$DATA_DIR/$FNAME"
-        python3 ./src/generate_datasets/clean2.py "$DATA_DIR/$FNAME.data"
-        python3 ./src/generate_datasets/calc_statistics.py "$DATA_DIR/$FNAME.data.cl" >> "$DATA_DIR/$FNAME.pat"
+        # ./repositories/ibm_generator/seq_data_generator lit -ntrans $d -nitems $I -tlen $t -ascii -fname "$DATA_DIR/$FNAME"
+        # python3 ./src/generate_datasets/clean2.py "$DATA_DIR/$FNAME.data"
+        # python3 ./src/generate_datasets/calc_statistics.py "$DATA_DIR/$FNAME.data.cl" >> "$DATA_DIR/$FNAME.pat"
 
 
-        echo -e "Step 2: Intermediary Clean-up"
-        rm $DATA_DIR/**.data
-        mv "$DATA_DIR/$FNAME.data.cl" "$DATA_DIR/$FNAME.dat"
+        # echo -e "Step 2: Intermediary Clean-up"
+        # rm $DATA_DIR/**.data
+        # mv "$DATA_DIR/$FNAME.data.cl" "$DATA_DIR/$FNAME.dat"
 
 
         for s in "${MIN_SUP[@]}"
@@ -52,7 +52,7 @@ do
             cat "$DATA_DIR/$FNAME.pat" >> "$RESULT_DIR/$FNAME-s$s.out"
         done 
 
-        rm "$DATA_DIR/$FNAME.pat"
+        # rm "$DATA_DIR/$FNAME.pat"
         rm "$RESULT_DIR/$FNAME.dat"
     done
 done 

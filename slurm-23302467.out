@@ -1,0 +1,126 @@
+Starting Experiment
+Step 3: Perform experiment (Support: 0.002)
+Repetition 1/2
+Repetition 2/2
+Step 4: Final clean-up
+cat: ./datasets/ibm/D100K-T10-I1K.pat: No such file or directory
+Step 3: Perform experiment (Support: 0.002)
+Repetition 1/2
+Repetition 2/2
+Step 4: Final clean-up
+cat: ./datasets/ibm/D100K-T25-I1K.pat: No such file or directory
+Step 3: Perform experiment (Support: 0.002)
+Repetition 1/2
+Repetition 2/2
+Step 4: Final clean-up
+cat: ./datasets/ibm/D100K-T40-I1K.pat: No such file or directory
+Step 3: Perform experiment (Support: 0.002)
+Repetition 1/2
+Repetition 2/2
+Step 4: Final clean-up
+cat: ./datasets/ibm/D100K-T55-I1K.pat: No such file or directory
+Step 3: Perform experiment (Support: 0.002)
+Repetition 1/2
+Repetition 2/2
+Step 4: Final clean-up
+cat: ./datasets/ibm/D250K-T10-I1K.pat: No such file or directory
+Step 3: Perform experiment (Support: 0.002)
+Repetition 1/2
+Repetition 2/2
+Step 4: Final clean-up
+cat: ./datasets/ibm/D250K-T25-I1K.pat: No such file or directory
+Step 3: Perform experiment (Support: 0.002)
+Repetition 1/2
+Repetition 2/2
+Step 4: Final clean-up
+cat: ./datasets/ibm/D250K-T40-I1K.pat: No such file or directory
+Step 3: Perform experiment (Support: 0.002)
+Repetition 1/2
+Repetition 2/2
+Step 4: Final clean-up
+cat: ./datasets/ibm/D250K-T55-I1K.pat: No such file or directory
+Step 3: Perform experiment (Support: 0.002)
+Repetition 1/2
+Repetition 2/2
+Step 4: Final clean-up
+cat: ./datasets/ibm/D500K-T10-I1K.pat: No such file or directory
+Step 3: Perform experiment (Support: 0.002)
+Repetition 1/2
+Repetition 2/2
+Step 4: Final clean-up
+cat: ./datasets/ibm/D500K-T25-I1K.pat: No such file or directory
+Step 3: Perform experiment (Support: 0.002)
+Repetition 1/2
+Repetition 2/2
+Step 4: Final clean-up
+cat: ./datasets/ibm/D500K-T40-I1K.pat: No such file or directory
+Step 3: Perform experiment (Support: 0.002)
+Repetition 1/2
+Repetition 2/2
+Step 4: Final clean-up
+cat: ./datasets/ibm/D500K-T55-I1K.pat: No such file or directory
+Step 3: Perform experiment (Support: 0.002)
+Repetition 1/2
+Repetition 2/2
+Step 4: Final clean-up
+cat: ./datasets/ibm/D1000K-T10-I1K.pat: No such file or directory
+Step 3: Perform experiment (Support: 0.002)
+Repetition 1/2
+Repetition 2/2
+Step 4: Final clean-up
+cat: ./datasets/ibm/D1000K-T25-I1K.pat: No such file or directory
+Step 3: Perform experiment (Support: 0.002)
+Repetition 1/2
+Repetition 2/2
+Step 4: Final clean-up
+cat: ./datasets/ibm/D1000K-T40-I1K.pat: No such file or directory
+Step 3: Perform experiment (Support: 0.002)
+Repetition 1/2
+Repetition 2/2
+Step 4: Final clean-up
+cat: ./datasets/ibm/D1000K-T55-I1K.pat: No such file or directory
+Step 5: Done!
+
+
+
+###############################################################################
+Peregrine Cluster
+Job 23302467 for user 's4509412'
+Finished at: Mon Mar 21 12:07:48 CET 2022
+
+Job details:
+============
+
+Job ID              : 23302467
+Name                : gminer_support_experiment.sh
+User                : s4509412
+Partition           : gpu
+Nodes               : pg-gpu12
+Number of Nodes     : 1
+Cores               : 12
+Number of Tasks     : 1
+State               : COMPLETED
+Submit              : 2022-03-21T11:58:20
+Start               : 2022-03-21T12:00:40
+End                 : 2022-03-21T12:07:48
+Reserved walltime   : 04:00:00
+Used walltime       : 00:07:08
+Used CPU time       : 00:06:57 (efficiency:  8.14%)
+% User (Computation): 50.71%
+% System (I/O)      : 49.29%
+Mem reserved        : 2000M
+Max Mem (Node/step) : 19.30G (pg-gpu12, per node)
+Full Max Mem usage  : 19.30G
+Total Disk Read     : 1.58G
+Total Disk Write    : 368.02M
+Average GPU usage   : 28.9% (pg-gpu12)
+
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Peregrine in your publications:
+
+https://wiki.hpc.rug.nl/peregrine/introduction/scientific_output
+
+################################################################################

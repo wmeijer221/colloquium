@@ -1,10 +1,10 @@
 #!/bin/sh
 # This script executes the entire GMiner support threshold experiment.
 
-I=(2 3 4)
+I=(1 2 3 4 5 6)
 D=(500)
 T=(10)
-MIN_SUP=(0.0002 0.0006 0.001 0.0014 0.0018 0.002)
+MIN_SUP=(0.0002 0.0006 0.001 0.0014 0.0018 0.0022)
 
 REPS=3
 DATA_DIR="./datasets/ibm"

@@ -11,71 +11,71 @@ by Kang-Wook Chon, 2016
 http://infolab.dgist.ac.kr/~kwjeon/
 input - ./datasets/ibm/D500K-T10-I1K.dat, output - ./results/gminer/D500K-T10-I1K.dat, minsup - 0.001, verticalListLength - 4096
 numOfGPUs - 1, numOfStreams - 1, isMat - 0, sizeofFragments - 3, isWirteOutput - 1
-Reading file into main memory. [0.796714 sec]
-Finding frequent 1-itemsets. [0.0391619 sec]
-Transforming vertical format with bit vectors from horizontal format. [0.0186059 sec]
-Building the buffers of TB and SA with respect to the TFL strategy. [3.01311 sec]
-Allocating the buffers with respect to candidate itemsets. [1.86802 sec]
-Allocating the buffers on GPU device memory. [0.0020442 sec]
-Generating candidate itemsets. [0.00173092 sec]
-Performing support counting. [0.055269 sec]
+Reading file into main memory. [0.680874 sec]
+Finding frequent 1-itemsets. [0.036598 sec]
+Transforming vertical format with bit vectors from horizontal format. [0.0183959 sec]
+Building the buffers of TB and SA with respect to the TFL strategy. [2.9653 sec]
+Allocating the buffers with respect to candidate itemsets. [1.85255 sec]
+Allocating the buffers on GPU device memory. [0.00160909 sec]
+Generating candidate itemsets. [0.00172806 sec]
+Performing support counting. [0.0532422 sec]
 Printing frequent itemsets.
 candidate_list_length - 393828, candidate_list_width - 2, numOfTransactions - 492107
-Performing Level 2. [0.080616 sec]
+Performing Level 2. [0.078958 sec]
 - the # of frequent itemsets - 7050
-Generating candidate itemsets. [0.00212789 sec]
-Performing support counting. [0.017086 sec]
+Generating candidate itemsets. [0.002141 sec]
+Performing support counting. [0.0137758 sec]
 Printing frequent itemsets.
 candidate_list_length - 60338, candidate_list_width - 3, numOfTransactions - 492107
-Performing Level 3. [0.025058 sec]
+Performing Level 3. [0.0220158 sec]
 - the # of frequent itemsets - 1513
-Generating candidate itemsets. [0.000254869 sec]
-Performing support counting. [0.00971389 sec]
+Generating candidate itemsets. [0.000257969 sec]
+Performing support counting. [0.00636506 sec]
 Printing frequent itemsets.
 candidate_list_length - 1416, candidate_list_width - 4, numOfTransactions - 492107
-Performing Level 4. [0.0145011 sec]
+Performing Level 4. [0.011215 sec]
 - the # of frequent itemsets - 1352
-Generating candidate itemsets. [3.29018e-05 sec]
-Performing support counting. [0.00958705 sec]
+Generating candidate itemsets. [3.09944e-05 sec]
+Performing support counting. [0.00629497 sec]
 Printing frequent itemsets.
 candidate_list_length - 1123, candidate_list_width - 5, numOfTransactions - 492107
-Performing Level 5. [0.013741 sec]
+Performing Level 5. [0.010457 sec]
 - the # of frequent itemsets - 1106
-Generating candidate itemsets. [2.12193e-05 sec]
-Performing support counting. [0.00960612 sec]
+Generating candidate itemsets. [2.40803e-05 sec]
+Performing support counting. [0.00626612 sec]
 Printing frequent itemsets.
 candidate_list_length - 749, candidate_list_width - 6, numOfTransactions - 492107
-Performing Level 6. [0.012857 sec]
+Performing Level 6. [0.00952387 sec]
 - the # of frequent itemsets - 742
-Generating candidate itemsets. [1.40667e-05 sec]
-Performing support counting. [0.00962186 sec]
+Generating candidate itemsets. [1.28746e-05 sec]
+Performing support counting. [0.00631189 sec]
 Printing frequent itemsets.
 candidate_list_length - 383, candidate_list_width - 7, numOfTransactions - 492107
-Performing Level 7. [0.012017 sec]
+Performing Level 7. [0.00873804 sec]
 - the # of frequent itemsets - 381
-Generating candidate itemsets. [7.86781e-06 sec]
-Performing support counting. [0.00965405 sec]
+Generating candidate itemsets. [6.91414e-06 sec]
+Performing support counting. [0.00619888 sec]
 Printing frequent itemsets.
 candidate_list_length - 135, candidate_list_width - 8, numOfTransactions - 492107
-Performing Level 8. [0.0113611 sec]
+Performing Level 8. [0.00789189 sec]
 - the # of frequent itemsets - 87
-Generating candidate itemsets. [5.00679e-06 sec]
-Performing support counting. [0.00952506 sec]
+Generating candidate itemsets. [3.09944e-06 sec]
+Performing support counting. [0.00622082 sec]
 Printing frequent itemsets.
 candidate_list_length - 12, candidate_list_width - 9, numOfTransactions - 492107
-Performing Level 9. [0.0110562 sec]
+Performing Level 9. [0.00761795 sec]
 - the # of frequent itemsets - 10
-Generating candidate itemsets. [2.86102e-06 sec]
-Performing support counting. [0.00953698 sec]
+Generating candidate itemsets. [2.14577e-06 sec]
+Performing support counting. [0.00622201 sec]
 Printing frequent itemsets.
 candidate_list_length - 1, candidate_list_width - 10, numOfTransactions - 492107
-Performing Level 10. [0.0109448 sec]
+Performing Level 10. [0.00767803 sec]
 - the # of frequent itemsets - 1
-Generating candidate itemsets. [1.19209e-06 sec]
-Performing support counting. [2.14577e-06 sec]
+Generating candidate itemsets. [9.53674e-07 sec]
+Performing support counting. [9.53674e-07 sec]
 Printing frequent itemsets.
 candidate_list_length - 0, candidate_list_width - 11, numOfTransactions - 492107
-Performing Level 11. [0.00132418 sec]
+Performing Level 11. [0.00138211 sec]
 - the # of frequent itemsets - 0
 Presenting the information of runtime
 - dataset: ./datasets/ibm/D500K-T10-I1K.dat, minsup: 0.001
@@ -85,12 +85,12 @@ Presenting the information of runtime
 - the maximum GPU threads per block: 64
 - the # of GPUs: 1
 Presenting the elapsed time for each steps
-Building vertical database. [0.845281 sec]
-Building mining framework. [4.94747 sec]
+Building vertical database. [0.724945 sec]
+Building mining framework. [4.8806 sec]
 Generating pre-computation. [0 sec]
-Performing mining operations. [0.193665 sec]
-- Generating candidate itemsets. [0.00857449 sec]
-- Performing support counting. [0.185091 sec]
+Performing mining operations. [0.165656 sec]
+- Generating candidate itemsets. [0.00842166 sec]
+- Performing support counting. [0.157234 sec]
 
 
 Repetition: 2 / 3
@@ -99,71 +99,71 @@ by Kang-Wook Chon, 2016
 http://infolab.dgist.ac.kr/~kwjeon/
 input - ./datasets/ibm/D500K-T10-I1K.dat, output - ./results/gminer/D500K-T10-I1K.dat, minsup - 0.001, verticalListLength - 4096
 numOfGPUs - 1, numOfStreams - 1, isMat - 0, sizeofFragments - 3, isWirteOutput - 1
-Reading file into main memory. [0.657996 sec]
-Finding frequent 1-itemsets. [0.047246 sec]
-Transforming vertical format with bit vectors from horizontal format. [0.021615 sec]
-Building the buffers of TB and SA with respect to the TFL strategy. [2.94881 sec]
-Allocating the buffers with respect to candidate itemsets. [1.84492 sec]
-Allocating the buffers on GPU device memory. [0.00167298 sec]
-Generating candidate itemsets. [0.00168204 sec]
-Performing support counting. [0.052716 sec]
+Reading file into main memory. [0.690515 sec]
+Finding frequent 1-itemsets. [0.043366 sec]
+Transforming vertical format with bit vectors from horizontal format. [0.0188231 sec]
+Building the buffers of TB and SA with respect to the TFL strategy. [2.98701 sec]
+Allocating the buffers with respect to candidate itemsets. [1.88382 sec]
+Allocating the buffers on GPU device memory. [0.00160694 sec]
+Generating candidate itemsets. [0.00170803 sec]
+Performing support counting. [0.0545821 sec]
 Printing frequent itemsets.
 candidate_list_length - 393828, candidate_list_width - 2, numOfTransactions - 492107
-Performing Level 2. [0.0782418 sec]
+Performing Level 2. [0.0798829 sec]
 - the # of frequent itemsets - 7050
-Generating candidate itemsets. [0.00213695 sec]
-Performing support counting. [0.013834 sec]
+Generating candidate itemsets. [0.00213408 sec]
+Performing support counting. [0.0163379 sec]
 Printing frequent itemsets.
 candidate_list_length - 60338, candidate_list_width - 3, numOfTransactions - 492107
-Performing Level 3. [0.021915 sec]
+Performing Level 3. [0.0242989 sec]
 - the # of frequent itemsets - 1513
-Generating candidate itemsets. [0.000252008 sec]
-Performing support counting. [0.00651288 sec]
+Generating candidate itemsets. [0.000250101 sec]
+Performing support counting. [0.00900793 sec]
 Printing frequent itemsets.
 candidate_list_length - 1416, candidate_list_width - 4, numOfTransactions - 492107
-Performing Level 4. [0.0114291 sec]
+Performing Level 4. [0.01389 sec]
 - the # of frequent itemsets - 1352
-Generating candidate itemsets. [3.09944e-05 sec]
-Performing support counting. [0.00648999 sec]
+Generating candidate itemsets. [2.98023e-05 sec]
+Performing support counting. [0.00897002 sec]
 Printing frequent itemsets.
 candidate_list_length - 1123, candidate_list_width - 5, numOfTransactions - 492107
-Performing Level 5. [0.0106709 sec]
+Performing Level 5. [0.0130651 sec]
 - the # of frequent itemsets - 1106
-Generating candidate itemsets. [1.90735e-05 sec]
-Performing support counting. [0.00647497 sec]
+Generating candidate itemsets. [1.88351e-05 sec]
+Performing support counting. [0.00892997 sec]
 Printing frequent itemsets.
 candidate_list_length - 749, candidate_list_width - 6, numOfTransactions - 492107
-Performing Level 6. [0.0096159 sec]
+Performing Level 6. [0.012202 sec]
 - the # of frequent itemsets - 742
-Generating candidate itemsets. [1.38283e-05 sec]
-Performing support counting. [0.00647092 sec]
+Generating candidate itemsets. [1.50204e-05 sec]
+Performing support counting. [0.00899315 sec]
 Printing frequent itemsets.
 candidate_list_length - 383, candidate_list_width - 7, numOfTransactions - 492107
-Performing Level 7. [0.00886679 sec]
+Performing Level 7. [0.011646 sec]
 - the # of frequent itemsets - 381
-Generating candidate itemsets. [7.86781e-06 sec]
-Performing support counting. [0.00642204 sec]
+Generating candidate itemsets. [8.10623e-06 sec]
+Performing support counting. [0.00890398 sec]
 Printing frequent itemsets.
 candidate_list_length - 135, candidate_list_width - 8, numOfTransactions - 492107
-Performing Level 8. [0.00806594 sec]
+Performing Level 8. [0.010746 sec]
 - the # of frequent itemsets - 87
-Generating candidate itemsets. [3.09944e-06 sec]
-Performing support counting. [0.00644183 sec]
+Generating candidate itemsets. [5.00679e-06 sec]
+Performing support counting. [0.00892615 sec]
 Printing frequent itemsets.
 candidate_list_length - 12, candidate_list_width - 9, numOfTransactions - 492107
-Performing Level 9. [0.00802112 sec]
+Performing Level 9. [0.0103579 sec]
 - the # of frequent itemsets - 10
-Generating candidate itemsets. [1.90735e-06 sec]
-Performing support counting. [0.006428 sec]
+Generating candidate itemsets. [2.14577e-06 sec]
+Performing support counting. [0.00890708 sec]
 Printing frequent itemsets.
 candidate_list_length - 1, candidate_list_width - 10, numOfTransactions - 492107
-Performing Level 10. [0.00776196 sec]
+Performing Level 10. [0.010267 sec]
 - the # of frequent itemsets - 1
-Generating candidate itemsets. [9.53674e-07 sec]
+Generating candidate itemsets. [0 sec]
 Performing support counting. [9.53674e-07 sec]
 Printing frequent itemsets.
 candidate_list_length - 0, candidate_list_width - 11, numOfTransactions - 492107
-Performing Level 11. [0.00152397 sec]
+Performing Level 11. [0.00144315 sec]
 - the # of frequent itemsets - 0
 Presenting the information of runtime
 - dataset: ./datasets/ibm/D500K-T10-I1K.dat, minsup: 0.001
@@ -173,12 +173,12 @@ Presenting the information of runtime
 - the maximum GPU threads per block: 64
 - the # of GPUs: 1
 Presenting the elapsed time for each steps
-Building vertical database. [0.718316 sec]
-Building mining framework. [4.86525 sec]
+Building vertical database. [0.745478 sec]
+Building mining framework. [4.93439 sec]
 Generating pre-computation. [0 sec]
-Performing mining operations. [0.166294 sec]
-- Generating candidate itemsets. [0.00842714 sec]
-- Performing support counting. [0.157867 sec]
+Performing mining operations. [0.18798 sec]
+- Generating candidate itemsets. [0.00849509 sec]
+- Performing support counting. [0.179485 sec]
 
 
 Repetition: 3 / 3
@@ -187,71 +187,71 @@ by Kang-Wook Chon, 2016
 http://infolab.dgist.ac.kr/~kwjeon/
 input - ./datasets/ibm/D500K-T10-I1K.dat, output - ./results/gminer/D500K-T10-I1K.dat, minsup - 0.001, verticalListLength - 4096
 numOfGPUs - 1, numOfStreams - 1, isMat - 0, sizeofFragments - 3, isWirteOutput - 1
-Reading file into main memory. [0.680396 sec]
-Finding frequent 1-itemsets. [0.0381 sec]
-Transforming vertical format with bit vectors from horizontal format. [0.0240941 sec]
-Building the buffers of TB and SA with respect to the TFL strategy. [2.97047 sec]
-Allocating the buffers with respect to candidate itemsets. [1.85321 sec]
-Allocating the buffers on GPU device memory. [0.00162292 sec]
-Generating candidate itemsets. [0.00204492 sec]
-Performing support counting. [0.0552099 sec]
+Reading file into main memory. [0.721701 sec]
+Finding frequent 1-itemsets. [0.041209 sec]
+Transforming vertical format with bit vectors from horizontal format. [0.019279 sec]
+Building the buffers of TB and SA with respect to the TFL strategy. [2.97899 sec]
+Allocating the buffers with respect to candidate itemsets. [1.88928 sec]
+Allocating the buffers on GPU device memory. [0.00157905 sec]
+Generating candidate itemsets. [0.0017159 sec]
+Performing support counting. [0.0545971 sec]
 Printing frequent itemsets.
 candidate_list_length - 393828, candidate_list_width - 2, numOfTransactions - 492107
-Performing Level 2. [0.0811331 sec]
+Performing Level 2. [0.080303 sec]
 - the # of frequent itemsets - 7050
-Generating candidate itemsets. [0.00213289 sec]
-Performing support counting. [0.0170341 sec]
+Generating candidate itemsets. [0.00216484 sec]
+Performing support counting. [0.0164101 sec]
 Printing frequent itemsets.
 candidate_list_length - 60338, candidate_list_width - 3, numOfTransactions - 492107
-Performing Level 3. [0.0249009 sec]
+Performing Level 3. [0.0244439 sec]
 - the # of frequent itemsets - 1513
-Generating candidate itemsets. [0.000252008 sec]
-Performing support counting. [0.00968504 sec]
+Generating candidate itemsets. [0.000257015 sec]
+Performing support counting. [0.00907707 sec]
 Printing frequent itemsets.
 candidate_list_length - 1416, candidate_list_width - 4, numOfTransactions - 492107
-Performing Level 4. [0.0145249 sec]
+Performing Level 4. [0.013984 sec]
 - the # of frequent itemsets - 1352
-Generating candidate itemsets. [3.00407e-05 sec]
-Performing support counting. [0.00965309 sec]
+Generating candidate itemsets. [3.09944e-05 sec]
+Performing support counting. [0.00905704 sec]
 Printing frequent itemsets.
 candidate_list_length - 1123, candidate_list_width - 5, numOfTransactions - 492107
-Performing Level 5. [0.013654 sec]
+Performing Level 5. [0.0131409 sec]
 - the # of frequent itemsets - 1106
-Generating candidate itemsets. [1.90735e-05 sec]
-Performing support counting. [0.00961709 sec]
+Generating candidate itemsets. [1.81198e-05 sec]
+Performing support counting. [0.0090549 sec]
 Printing frequent itemsets.
 candidate_list_length - 749, candidate_list_width - 6, numOfTransactions - 492107
-Performing Level 6. [0.012737 sec]
+Performing Level 6. [0.0126059 sec]
 - the # of frequent itemsets - 742
-Generating candidate itemsets. [1.3113e-05 sec]
-Performing support counting. [0.00964308 sec]
+Generating candidate itemsets. [1.40667e-05 sec]
+Performing support counting. [0.00906014 sec]
 Printing frequent itemsets.
 candidate_list_length - 383, candidate_list_width - 7, numOfTransactions - 492107
-Performing Level 7. [0.011991 sec]
+Performing Level 7. [0.011672 sec]
 - the # of frequent itemsets - 381
-Generating candidate itemsets. [7.15256e-06 sec]
-Performing support counting. [0.00959086 sec]
+Generating candidate itemsets. [8.10623e-06 sec]
+Performing support counting. [0.00896907 sec]
 Printing frequent itemsets.
 candidate_list_length - 135, candidate_list_width - 8, numOfTransactions - 492107
-Performing Level 8. [0.0114 sec]
+Performing Level 8. [0.010705 sec]
 - the # of frequent itemsets - 87
-Generating candidate itemsets. [2.86102e-06 sec]
-Performing support counting. [0.00961304 sec]
+Generating candidate itemsets. [3.8147e-06 sec]
+Performing support counting. [0.00903201 sec]
 Printing frequent itemsets.
 candidate_list_length - 12, candidate_list_width - 9, numOfTransactions - 492107
-Performing Level 9. [0.0111482 sec]
+Performing Level 9. [0.0105829 sec]
 - the # of frequent itemsets - 10
-Generating candidate itemsets. [2.14577e-06 sec]
-Performing support counting. [0.00959492 sec]
+Generating candidate itemsets. [3.09944e-06 sec]
+Performing support counting. [0.00905895 sec]
 Printing frequent itemsets.
 candidate_list_length - 1, candidate_list_width - 10, numOfTransactions - 492107
-Performing Level 10. [0.0109231 sec]
+Performing Level 10. [0.0106311 sec]
 - the # of frequent itemsets - 1
 Generating candidate itemsets. [0 sec]
-Performing support counting. [9.53674e-07 sec]
+Performing support counting. [3.09944e-06 sec]
 Printing frequent itemsets.
 candidate_list_length - 0, candidate_list_width - 11, numOfTransactions - 492107
-Performing Level 11. [0.00130796 sec]
+Performing Level 11. [0.00132799 sec]
 - the # of frequent itemsets - 0
 Presenting the information of runtime
 - dataset: ./datasets/ibm/D500K-T10-I1K.dat, minsup: 0.001
@@ -261,12 +261,12 @@ Presenting the information of runtime
 - the maximum GPU threads per block: 64
 - the # of GPUs: 1
 Presenting the elapsed time for each steps
-Building vertical database. [0.727344 sec]
-Building mining framework. [4.90326 sec]
+Building vertical database. [0.77235 sec]
+Building mining framework. [4.93297 sec]
 Generating pre-computation. [0 sec]
-Performing mining operations. [0.193902 sec]
-- Generating candidate itemsets. [0.00884438 sec]
-- Performing support counting. [0.185058 sec]
+Performing mining operations. [0.189588 sec]
+- Generating candidate itemsets. [0.00846648 sec]
+- Performing support counting. [0.181122 sec]
 
 
 Generated Pattern File:

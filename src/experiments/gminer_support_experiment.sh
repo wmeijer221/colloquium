@@ -27,7 +27,7 @@ do
 
             echo -e "\nStep 1: Generating dataset: $FNAME"
 
-            ./repositories/ibm_generator/seq_data_generator lit -ntrans $d -nitems $I -tlen $t -ascii -fname "$DATA_DIR/$FNAME"
+            ./repositories/ibm_generator/seq_data_generator lit -ntrans $d -nitems $i -tlen $t -ascii -fname "$DATA_DIR/$FNAME"
             python3 ./src/generate_datasets/clean2.py "$DATA_DIR/$FNAME.data"
             python3 ./src/generate_datasets/calc_statistics.py "$DATA_DIR/$FNAME.data.cl" >> "$DATA_DIR/$FNAME.pat"
 

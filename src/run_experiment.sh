@@ -1,14 +1,19 @@
 #!/bin/sh
-# This script executes the entire GMiner support threshold experiment.
+# This script executes the entire GMiner FIM experiment.
 
-I=(1 2 3 4 5 6)
-D=(500)
-T=(10)
-MIN_SUP=(0.0002 0.0006 0.001 0.0014 0.0018 0.0022)
+I=(1 2 3 4 5 6)             # Number of unique items
+D=(100 250 500 750 1000)    # Number of transactions
+T=(10 25 40 55)             # Average transaction length
+MIN_SUP=(0.0002 0.0006 0.001 0.0014 0.0018 0.0022)  # Minimum support values
 
-REPS=3
+REPS=3                      # Number of repetitions performed.
 DATA_DIR="./datasets/ibm"
 RESULT_DIR="./results/gminer"
+
+mkdir ./datasets
+mkdir ./datasets/ibm
+mkdir ./results
+mkdir ./results/gminer
 
 echo -e "Starting Experiment"
 
@@ -28,8 +33,8 @@ do
             echo -e "\nStep 1: Generating dataset: $FNAME"
 
             ./repositories/ibm_generator/seq_data_generator lit -ntrans $d -nitems $i -tlen $t -ascii -fname "$DATA_DIR/$FNAME"
-            python3 ./src/generate_datasets/clean2.py "$DATA_DIR/$FNAME.data"
-            python3 ./src/generate_datasets/calc_statistics.py "$DATA_DIR/$FNAME.data.cl" >> "$DATA_DIR/$FNAME.pat"
+            python3 ./src/clean.py "$DATA_DIR/$FNAME.data"
+            python3 ./src/calc_statistics.py "$DATA_DIR/$FNAME.data.cl" >> "$DATA_DIR/$FNAME.pat"
 
 
             echo -e "Step 2: Intermediary Clean-up"

@@ -2,7 +2,7 @@
 # This script executes the entire GMiner data-density experiment.
 
 D=250
-T=(10 20 30 35 40 45 50)
+T=(5 10 15 20 25 30 35 40 45 50)
 I=1
 
 REPS=10

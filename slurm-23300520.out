@@ -1,0 +1,446 @@
+Starting Experiment
+
+Step 1: Generating dataset: D100K-T10-I1K
+Step 2: Intermediary Clean-up
+Step 3: Perform experiment (Support: 0.0002)
+Repetition 1/2
+Repetition 2/2
+Step 4: Final clean-up
+Step 3: Perform experiment (Support: 0.0006)
+Repetition 1/2
+Repetition 2/2
+Step 4: Final clean-up
+Step 3: Perform experiment (Support: 0.001)
+Repetition 1/2
+Repetition 2/2
+Step 4: Final clean-up
+Step 3: Perform experiment (Support: 0.0014)
+Repetition 1/2
+Repetition 2/2
+Step 4: Final clean-up
+Step 3: Perform experiment (Support: 0.0018)
+Repetition 1/2
+Repetition 2/2
+Step 4: Final clean-up
+
+Step 1: Generating dataset: D100K-T25-I1K
+Step 2: Intermediary Clean-up
+Step 3: Perform experiment (Support: 0.0002)
+Repetition 1/2
+Repetition 2/2
+Step 4: Final clean-up
+Step 3: Perform experiment (Support: 0.0006)
+Repetition 1/2
+Repetition 2/2
+Step 4: Final clean-up
+Step 3: Perform experiment (Support: 0.001)
+Repetition 1/2
+Repetition 2/2
+Step 4: Final clean-up
+Step 3: Perform experiment (Support: 0.0014)
+Repetition 1/2
+Repetition 2/2
+Step 4: Final clean-up
+Step 3: Perform experiment (Support: 0.0018)
+Repetition 1/2
+Repetition 2/2
+Step 4: Final clean-up
+
+Step 1: Generating dataset: D100K-T40-I1K
+Step 2: Intermediary Clean-up
+Step 3: Perform experiment (Support: 0.0002)
+Repetition 1/2
+/var/spool/slurmd/job23300520/slurm_script: line 18: 11654 Segmentation fault      ./repositories/gminer/GMiner -i "$DATA_DIR/$FNAME.dat" -o "$RESULT_DIR/$FNAME.dat" -s $s -w 1 >> "$RESULT_DIR/$FNAME-s$s.out"
+Repetition 2/2
+/var/spool/slurmd/job23300520/slurm_script: line 18: 11829 Segmentation fault      ./repositories/gminer/GMiner -i "$DATA_DIR/$FNAME.dat" -o "$RESULT_DIR/$FNAME.dat" -s $s -w 1 >> "$RESULT_DIR/$FNAME-s$s.out"
+Step 4: Final clean-up
+Step 3: Perform experiment (Support: 0.0006)
+Repetition 1/2
+Repetition 2/2
+Step 4: Final clean-up
+Step 3: Perform experiment (Support: 0.001)
+Repetition 1/2
+Repetition 2/2
+Step 4: Final clean-up
+Step 3: Perform experiment (Support: 0.0014)
+Repetition 1/2
+Repetition 2/2
+Step 4: Final clean-up
+Step 3: Perform experiment (Support: 0.0018)
+Repetition 1/2
+Repetition 2/2
+Step 4: Final clean-up
+
+Step 1: Generating dataset: D100K-T55-I1K
+Step 2: Intermediary Clean-up
+Step 3: Perform experiment (Support: 0.0002)
+Repetition 1/2
+/var/spool/slurmd/job23300520/slurm_script: line 18: 13204 Segmentation fault      ./repositories/gminer/GMiner -i "$DATA_DIR/$FNAME.dat" -o "$RESULT_DIR/$FNAME.dat" -s $s -w 1 >> "$RESULT_DIR/$FNAME-s$s.out"
+Repetition 2/2
+/var/spool/slurmd/job23300520/slurm_script: line 18: 13348 Segmentation fault      ./repositories/gminer/GMiner -i "$DATA_DIR/$FNAME.dat" -o "$RESULT_DIR/$FNAME.dat" -s $s -w 1 >> "$RESULT_DIR/$FNAME-s$s.out"
+Step 4: Final clean-up
+Step 3: Perform experiment (Support: 0.0006)
+Repetition 1/2
+/var/spool/slurmd/job23300520/slurm_script: line 18: 13490 Segmentation fault      ./repositories/gminer/GMiner -i "$DATA_DIR/$FNAME.dat" -o "$RESULT_DIR/$FNAME.dat" -s $s -w 1 >> "$RESULT_DIR/$FNAME-s$s.out"
+Repetition 2/2
+/var/spool/slurmd/job23300520/slurm_script: line 18: 13655 Segmentation fault      ./repositories/gminer/GMiner -i "$DATA_DIR/$FNAME.dat" -o "$RESULT_DIR/$FNAME.dat" -s $s -w 1 >> "$RESULT_DIR/$FNAME-s$s.out"
+Step 4: Final clean-up
+Step 3: Perform experiment (Support: 0.001)
+Repetition 1/2
+/var/spool/slurmd/job23300520/slurm_script: line 18: 13824 Segmentation fault      ./repositories/gminer/GMiner -i "$DATA_DIR/$FNAME.dat" -o "$RESULT_DIR/$FNAME.dat" -s $s -w 1 >> "$RESULT_DIR/$FNAME-s$s.out"
+Repetition 2/2
+/var/spool/slurmd/job23300520/slurm_script: line 18: 13975 Segmentation fault      ./repositories/gminer/GMiner -i "$DATA_DIR/$FNAME.dat" -o "$RESULT_DIR/$FNAME.dat" -s $s -w 1 >> "$RESULT_DIR/$FNAME-s$s.out"
+Step 4: Final clean-up
+Step 3: Perform experiment (Support: 0.0014)
+Repetition 1/2
+Repetition 2/2
+Step 4: Final clean-up
+Step 3: Perform experiment (Support: 0.0018)
+Repetition 1/2
+Repetition 2/2
+Step 4: Final clean-up
+
+Step 1: Generating dataset: D250K-T10-I1K
+Step 2: Intermediary Clean-up
+Step 3: Perform experiment (Support: 0.0002)
+Repetition 1/2
+Repetition 2/2
+Step 4: Final clean-up
+Step 3: Perform experiment (Support: 0.0006)
+Repetition 1/2
+Repetition 2/2
+Step 4: Final clean-up
+Step 3: Perform experiment (Support: 0.001)
+Repetition 1/2
+Repetition 2/2
+Step 4: Final clean-up
+Step 3: Perform experiment (Support: 0.0014)
+Repetition 1/2
+Repetition 2/2
+Step 4: Final clean-up
+Step 3: Perform experiment (Support: 0.0018)
+Repetition 1/2
+Repetition 2/2
+Step 4: Final clean-up
+
+Step 1: Generating dataset: D250K-T25-I1K
+Step 2: Intermediary Clean-up
+Step 3: Perform experiment (Support: 0.0002)
+Repetition 1/2
+Repetition 2/2
+Step 4: Final clean-up
+Step 3: Perform experiment (Support: 0.0006)
+Repetition 1/2
+Repetition 2/2
+Step 4: Final clean-up
+Step 3: Perform experiment (Support: 0.001)
+Repetition 1/2
+Repetition 2/2
+Step 4: Final clean-up
+Step 3: Perform experiment (Support: 0.0014)
+Repetition 1/2
+Repetition 2/2
+Step 4: Final clean-up
+Step 3: Perform experiment (Support: 0.0018)
+Repetition 1/2
+Repetition 2/2
+Step 4: Final clean-up
+
+Step 1: Generating dataset: D250K-T40-I1K
+Step 2: Intermediary Clean-up
+Step 3: Perform experiment (Support: 0.0002)
+Repetition 1/2
+/var/spool/slurmd/job23300520/slurm_script: line 18: 17608 Segmentation fault      ./repositories/gminer/GMiner -i "$DATA_DIR/$FNAME.dat" -o "$RESULT_DIR/$FNAME.dat" -s $s -w 1 >> "$RESULT_DIR/$FNAME-s$s.out"
+Repetition 2/2
+/var/spool/slurmd/job23300520/slurm_script: line 18: 17780 Segmentation fault      ./repositories/gminer/GMiner -i "$DATA_DIR/$FNAME.dat" -o "$RESULT_DIR/$FNAME.dat" -s $s -w 1 >> "$RESULT_DIR/$FNAME-s$s.out"
+Step 4: Final clean-up
+Step 3: Perform experiment (Support: 0.0006)
+Repetition 1/2
+Repetition 2/2
+Step 4: Final clean-up
+Step 3: Perform experiment (Support: 0.001)
+Repetition 1/2
+Repetition 2/2
+Step 4: Final clean-up
+Step 3: Perform experiment (Support: 0.0014)
+Repetition 1/2
+Repetition 2/2
+Step 4: Final clean-up
+Step 3: Perform experiment (Support: 0.0018)
+Repetition 1/2
+Repetition 2/2
+Step 4: Final clean-up
+
+Step 1: Generating dataset: D250K-T55-I1K
+Step 2: Intermediary Clean-up
+Step 3: Perform experiment (Support: 0.0002)
+Repetition 1/2
+/var/spool/slurmd/job23300520/slurm_script: line 18: 19165 Segmentation fault      ./repositories/gminer/GMiner -i "$DATA_DIR/$FNAME.dat" -o "$RESULT_DIR/$FNAME.dat" -s $s -w 1 >> "$RESULT_DIR/$FNAME-s$s.out"
+Repetition 2/2
+/var/spool/slurmd/job23300520/slurm_script: line 18: 19307 Segmentation fault      ./repositories/gminer/GMiner -i "$DATA_DIR/$FNAME.dat" -o "$RESULT_DIR/$FNAME.dat" -s $s -w 1 >> "$RESULT_DIR/$FNAME-s$s.out"
+Step 4: Final clean-up
+Step 3: Perform experiment (Support: 0.0006)
+Repetition 1/2
+/var/spool/slurmd/job23300520/slurm_script: line 18: 19448 Segmentation fault      ./repositories/gminer/GMiner -i "$DATA_DIR/$FNAME.dat" -o "$RESULT_DIR/$FNAME.dat" -s $s -w 1 >> "$RESULT_DIR/$FNAME-s$s.out"
+Repetition 2/2
+/var/spool/slurmd/job23300520/slurm_script: line 18: 19616 Segmentation fault      ./repositories/gminer/GMiner -i "$DATA_DIR/$FNAME.dat" -o "$RESULT_DIR/$FNAME.dat" -s $s -w 1 >> "$RESULT_DIR/$FNAME-s$s.out"
+Step 4: Final clean-up
+Step 3: Perform experiment (Support: 0.001)
+Repetition 1/2
+/var/spool/slurmd/job23300520/slurm_script: line 18: 19786 Segmentation fault      ./repositories/gminer/GMiner -i "$DATA_DIR/$FNAME.dat" -o "$RESULT_DIR/$FNAME.dat" -s $s -w 1 >> "$RESULT_DIR/$FNAME-s$s.out"
+Repetition 2/2
+/var/spool/slurmd/job23300520/slurm_script: line 18: 19942 Segmentation fault      ./repositories/gminer/GMiner -i "$DATA_DIR/$FNAME.dat" -o "$RESULT_DIR/$FNAME.dat" -s $s -w 1 >> "$RESULT_DIR/$FNAME-s$s.out"
+Step 4: Final clean-up
+Step 3: Perform experiment (Support: 0.0014)
+Repetition 1/2
+Repetition 2/2
+Step 4: Final clean-up
+Step 3: Perform experiment (Support: 0.0018)
+Repetition 1/2
+Repetition 2/2
+Step 4: Final clean-up
+
+Step 1: Generating dataset: D500K-T10-I1K
+Step 2: Intermediary Clean-up
+Step 3: Perform experiment (Support: 0.0002)
+Repetition 1/2
+Repetition 2/2
+Step 4: Final clean-up
+Step 3: Perform experiment (Support: 0.0006)
+Repetition 1/2
+Repetition 2/2
+Step 4: Final clean-up
+Step 3: Perform experiment (Support: 0.001)
+Repetition 1/2
+Repetition 2/2
+Step 4: Final clean-up
+Step 3: Perform experiment (Support: 0.0014)
+Repetition 1/2
+Repetition 2/2
+Step 4: Final clean-up
+Step 3: Perform experiment (Support: 0.0018)
+Repetition 1/2
+Repetition 2/2
+Step 4: Final clean-up
+
+Step 1: Generating dataset: D500K-T25-I1K
+Step 2: Intermediary Clean-up
+Step 3: Perform experiment (Support: 0.0002)
+Repetition 1/2
+Repetition 2/2
+Step 4: Final clean-up
+Step 3: Perform experiment (Support: 0.0006)
+Repetition 1/2
+Repetition 2/2
+Step 4: Final clean-up
+Step 3: Perform experiment (Support: 0.001)
+Repetition 1/2
+Repetition 2/2
+Step 4: Final clean-up
+Step 3: Perform experiment (Support: 0.0014)
+Repetition 1/2
+Repetition 2/2
+Step 4: Final clean-up
+Step 3: Perform experiment (Support: 0.0018)
+Repetition 1/2
+Repetition 2/2
+Step 4: Final clean-up
+
+Step 1: Generating dataset: D500K-T40-I1K
+Step 2: Intermediary Clean-up
+Step 3: Perform experiment (Support: 0.0002)
+Repetition 1/2
+/var/spool/slurmd/job23300520/slurm_script: line 18: 23690 Segmentation fault      ./repositories/gminer/GMiner -i "$DATA_DIR/$FNAME.dat" -o "$RESULT_DIR/$FNAME.dat" -s $s -w 1 >> "$RESULT_DIR/$FNAME-s$s.out"
+Repetition 2/2
+/var/spool/slurmd/job23300520/slurm_script: line 18: 23870 Segmentation fault      ./repositories/gminer/GMiner -i "$DATA_DIR/$FNAME.dat" -o "$RESULT_DIR/$FNAME.dat" -s $s -w 1 >> "$RESULT_DIR/$FNAME-s$s.out"
+Step 4: Final clean-up
+Step 3: Perform experiment (Support: 0.0006)
+Repetition 1/2
+Repetition 2/2
+Step 4: Final clean-up
+Step 3: Perform experiment (Support: 0.001)
+Repetition 1/2
+Repetition 2/2
+Step 4: Final clean-up
+Step 3: Perform experiment (Support: 0.0014)
+Repetition 1/2
+Repetition 2/2
+Step 4: Final clean-up
+Step 3: Perform experiment (Support: 0.0018)
+Repetition 1/2
+Repetition 2/2
+Step 4: Final clean-up
+
+Step 1: Generating dataset: D500K-T55-I1K
+Step 2: Intermediary Clean-up
+Step 3: Perform experiment (Support: 0.0002)
+Repetition 1/2
+/var/spool/slurmd/job23300520/slurm_script: line 18: 25310 Segmentation fault      ./repositories/gminer/GMiner -i "$DATA_DIR/$FNAME.dat" -o "$RESULT_DIR/$FNAME.dat" -s $s -w 1 >> "$RESULT_DIR/$FNAME-s$s.out"
+Repetition 2/2
+/var/spool/slurmd/job23300520/slurm_script: line 18: 25453 Segmentation fault      ./repositories/gminer/GMiner -i "$DATA_DIR/$FNAME.dat" -o "$RESULT_DIR/$FNAME.dat" -s $s -w 1 >> "$RESULT_DIR/$FNAME-s$s.out"
+Step 4: Final clean-up
+Step 3: Perform experiment (Support: 0.0006)
+Repetition 1/2
+/var/spool/slurmd/job23300520/slurm_script: line 18: 25599 Segmentation fault      ./repositories/gminer/GMiner -i "$DATA_DIR/$FNAME.dat" -o "$RESULT_DIR/$FNAME.dat" -s $s -w 1 >> "$RESULT_DIR/$FNAME-s$s.out"
+Repetition 2/2
+/var/spool/slurmd/job23300520/slurm_script: line 18: 25770 Segmentation fault      ./repositories/gminer/GMiner -i "$DATA_DIR/$FNAME.dat" -o "$RESULT_DIR/$FNAME.dat" -s $s -w 1 >> "$RESULT_DIR/$FNAME-s$s.out"
+Step 4: Final clean-up
+Step 3: Perform experiment (Support: 0.001)
+Repetition 1/2
+/var/spool/slurmd/job23300520/slurm_script: line 18: 25946 Segmentation fault      ./repositories/gminer/GMiner -i "$DATA_DIR/$FNAME.dat" -o "$RESULT_DIR/$FNAME.dat" -s $s -w 1 >> "$RESULT_DIR/$FNAME-s$s.out"
+Repetition 2/2
+/var/spool/slurmd/job23300520/slurm_script: line 18: 26107 Segmentation fault      ./repositories/gminer/GMiner -i "$DATA_DIR/$FNAME.dat" -o "$RESULT_DIR/$FNAME.dat" -s $s -w 1 >> "$RESULT_DIR/$FNAME-s$s.out"
+Step 4: Final clean-up
+Step 3: Perform experiment (Support: 0.0014)
+Repetition 1/2
+Repetition 2/2
+Step 4: Final clean-up
+Step 3: Perform experiment (Support: 0.0018)
+Repetition 1/2
+Repetition 2/2
+Step 4: Final clean-up
+
+Step 1: Generating dataset: D1000K-T10-I1K
+Step 2: Intermediary Clean-up
+Step 3: Perform experiment (Support: 0.0002)
+Repetition 1/2
+Repetition 2/2
+Step 4: Final clean-up
+Step 3: Perform experiment (Support: 0.0006)
+Repetition 1/2
+Repetition 2/2
+Step 4: Final clean-up
+Step 3: Perform experiment (Support: 0.001)
+Repetition 1/2
+Repetition 2/2
+Step 4: Final clean-up
+Step 3: Perform experiment (Support: 0.0014)
+Repetition 1/2
+Repetition 2/2
+Step 4: Final clean-up
+Step 3: Perform experiment (Support: 0.0018)
+Repetition 1/2
+Repetition 2/2
+Step 4: Final clean-up
+
+Step 1: Generating dataset: D1000K-T25-I1K
+Step 2: Intermediary Clean-up
+Step 3: Perform experiment (Support: 0.0002)
+Repetition 1/2
+Repetition 2/2
+Step 4: Final clean-up
+Step 3: Perform experiment (Support: 0.0006)
+Repetition 1/2
+Repetition 2/2
+Step 4: Final clean-up
+Step 3: Perform experiment (Support: 0.001)
+Repetition 1/2
+Repetition 2/2
+Step 4: Final clean-up
+Step 3: Perform experiment (Support: 0.0014)
+Repetition 1/2
+Repetition 2/2
+Step 4: Final clean-up
+Step 3: Perform experiment (Support: 0.0018)
+Repetition 1/2
+Repetition 2/2
+Step 4: Final clean-up
+
+Step 1: Generating dataset: D1000K-T40-I1K
+Step 2: Intermediary Clean-up
+Step 3: Perform experiment (Support: 0.0002)
+Repetition 1/2
+/var/spool/slurmd/job23300520/slurm_script: line 18: 29995 Segmentation fault      ./repositories/gminer/GMiner -i "$DATA_DIR/$FNAME.dat" -o "$RESULT_DIR/$FNAME.dat" -s $s -w 1 >> "$RESULT_DIR/$FNAME-s$s.out"
+Repetition 2/2
+/var/spool/slurmd/job23300520/slurm_script: line 18: 30185 Segmentation fault      ./repositories/gminer/GMiner -i "$DATA_DIR/$FNAME.dat" -o "$RESULT_DIR/$FNAME.dat" -s $s -w 1 >> "$RESULT_DIR/$FNAME-s$s.out"
+Step 4: Final clean-up
+Step 3: Perform experiment (Support: 0.0006)
+Repetition 1/2
+Repetition 2/2
+Step 4: Final clean-up
+Step 3: Perform experiment (Support: 0.001)
+Repetition 1/2
+Repetition 2/2
+Step 4: Final clean-up
+Step 3: Perform experiment (Support: 0.0014)
+Repetition 1/2
+Repetition 2/2
+Step 4: Final clean-up
+Step 3: Perform experiment (Support: 0.0018)
+Repetition 1/2
+Repetition 2/2
+Step 4: Final clean-up
+
+Step 1: Generating dataset: D1000K-T55-I1K
+Step 2: Intermediary Clean-up
+Step 3: Perform experiment (Support: 0.0002)
+Repetition 1/2
+/var/spool/slurmd/job23300520/slurm_script: line 18: 31742 Segmentation fault      ./repositories/gminer/GMiner -i "$DATA_DIR/$FNAME.dat" -o "$RESULT_DIR/$FNAME.dat" -s $s -w 1 >> "$RESULT_DIR/$FNAME-s$s.out"
+Repetition 2/2
+/var/spool/slurmd/job23300520/slurm_script: line 18: 31890 Segmentation fault      ./repositories/gminer/GMiner -i "$DATA_DIR/$FNAME.dat" -o "$RESULT_DIR/$FNAME.dat" -s $s -w 1 >> "$RESULT_DIR/$FNAME-s$s.out"
+Step 4: Final clean-up
+Step 3: Perform experiment (Support: 0.0006)
+Repetition 1/2
+/var/spool/slurmd/job23300520/slurm_script: line 18: 32040 Segmentation fault      ./repositories/gminer/GMiner -i "$DATA_DIR/$FNAME.dat" -o "$RESULT_DIR/$FNAME.dat" -s $s -w 1 >> "$RESULT_DIR/$FNAME-s$s.out"
+Repetition 2/2
+/var/spool/slurmd/job23300520/slurm_script: line 18: 32222 Segmentation fault      ./repositories/gminer/GMiner -i "$DATA_DIR/$FNAME.dat" -o "$RESULT_DIR/$FNAME.dat" -s $s -w 1 >> "$RESULT_DIR/$FNAME-s$s.out"
+Step 4: Final clean-up
+Step 3: Perform experiment (Support: 0.001)
+Repetition 1/2
+/var/spool/slurmd/job23300520/slurm_script: line 18: 32434 Segmentation fault      ./repositories/gminer/GMiner -i "$DATA_DIR/$FNAME.dat" -o "$RESULT_DIR/$FNAME.dat" -s $s -w 1 >> "$RESULT_DIR/$FNAME-s$s.out"
+Repetition 2/2
+/var/spool/slurmd/job23300520/slurm_script: line 18: 32604 Segmentation fault      ./repositories/gminer/GMiner -i "$DATA_DIR/$FNAME.dat" -o "$RESULT_DIR/$FNAME.dat" -s $s -w 1 >> "$RESULT_DIR/$FNAME-s$s.out"
+Step 4: Final clean-up
+Step 3: Perform experiment (Support: 0.0014)
+Repetition 1/2
+Repetition 2/2
+Step 4: Final clean-up
+Step 3: Perform experiment (Support: 0.0018)
+Repetition 1/2
+Repetition 2/2
+Step 4: Final clean-up
+Step 5: Done!
+
+
+
+###############################################################################
+Peregrine Cluster
+Job 23300520 for user 's4509412'
+Finished at: Mon Mar 21 09:23:20 CET 2022
+
+Job details:
+============
+
+Job ID              : 23300520
+Name                : gminer_support_experiment.sh
+User                : s4509412
+Partition           : gpu
+Nodes               : pg-gpu29
+Number of Nodes     : 1
+Cores               : 12
+Number of Tasks     : 1
+State               : COMPLETED
+Submit              : 2022-03-21T08:29:46
+Start               : 2022-03-21T08:29:52
+End                 : 2022-03-21T09:23:19
+Reserved walltime   : 06:00:00
+Used walltime       : 00:53:27
+Used CPU time       : 00:53:36 (efficiency:  8.36%)
+% User (Computation): 58.54%
+% System (I/O)      : 41.46%
+Mem reserved        : 2000M
+Max Mem (Node/step) : 19.31G (pg-gpu29, per node)
+Full Max Mem usage  : 19.31G
+Total Disk Read     : 10.48G
+Total Disk Write    : 9.92G
+Average GPU usage   : 18.1% (pg-gpu29)
+
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Peregrine in your publications:
+
+https://wiki.hpc.rug.nl/peregrine/introduction/scientific_output
+
+################################################################################

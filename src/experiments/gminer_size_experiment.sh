@@ -4,7 +4,7 @@
 
 # This script executes the entire GMiner data-size experiment.
 
-D=(1000 750 500 250 100)
+D=(2000 1750 1500 1250 1000 750 500 250 100 50)
 T=20
 I=10
 
